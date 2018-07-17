@@ -1,0 +1,21 @@
+  /****************************
+    Header Section
+    ****************************/
+    .header {
+        text-align: center;
+        background-color: $blue; 
+        color: white;
+        position: fixed;
+        left: 0;
+        top: 0;
+        width: 100%;
+        z-index: 300;
+    }
+
+    .header a {
+        color: white;
+    }
+
+    .navbar-brand {
+        margin-left: 1rem;
+    }

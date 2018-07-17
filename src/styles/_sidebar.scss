@@ -1,0 +1,38 @@
+/****************************
+Sidebar Section
+****************************/
+.sidebar {
+    z-index: 100;
+}
+
+ul {
+    list-style-type: 'none';
+}
+
+.sidebar-list-styling{
+    margin-top:10px;
+    text-align: center;
+    padding-top: 15px;
+    width: 20%;
+    height: 100%;
+    background-color: $blue;
+    color: white;
+    position: fixed;
+    left: 0px;
+}
+
+.sidebar-list a{
+    color: white;
+    padding: 0;
+}
+
+.sideButton {
+    color: white;
+    border: solid white;
+    margin-bottom: 10px;
+    width: 70px;
+}
+
+.longButton {
+    padding-left: 5px;
+}
